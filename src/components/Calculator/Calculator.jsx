@@ -80,14 +80,14 @@ const Calculator = () => {
           <button onClick={backspace}>
             <img src="images/backspace.png" alt="back" height={30} />
           </button>
-          <button value="(" onClick={(e) => setVal(val + e.target.value)}>
-            (
-          </button>
-          <button value=")" onClick={(e) => setVal(val + e.target.value)}>
-            )
+          <button value="." onClick={(e) => setVal(val + e.target.value)}>
+            .
           </button>
           <button value="%" onClick={(e) => setVal(val + e.target.value)}>
             %
+          </button>
+          <button>
+            
           </button>
         </div>
       </div>
